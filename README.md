@@ -17,7 +17,7 @@ The project is only meant for learning and not to build and exact replica.
 * Video playback should be in chunks and not the whole file at once.
 
 ## High Level Design
-![](.\images\hld.drawio.png "High Level Design")
+![](./images/hld.drawio.png "High Level Design")
 
 ### Video Storage (S3 Storage)
 S3 Storage will be used to store raw and encoded videos. Object storage has been the go-to for most applications and 
@@ -47,7 +47,7 @@ There is no specific language that I will be using for the microservices but for
 No plans on designing the client just yet.
 
 ## Database Design Diagram
-![](.\images\db-design.png "Database Design")
+![](./images/db-design.png "Database Design")
 
 ## Detailed Design
 
