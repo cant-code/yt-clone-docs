@@ -1,5 +1,25 @@
 # YT Clone Design
 
+<!-- TOC -->
+* [YT Clone Design](#yt-clone-design)
+  * [Introduction](#introduction)
+  * [Requirements](#requirements)
+  * [High Level Design](#high-level-design)
+    * [Video Storage (S3 Storage)](#video-storage-s3-storage)
+    * [Video Transcoding Events](#video-transcoding-events)
+    * [Database](#database)
+    * [Authentication](#authentication)
+    * [Services](#services)
+    * [Client](#client)
+  * [Database Design Diagram](#database-design-diagram)
+  * [Detailed Design](#detailed-design)
+    * [1. User Authentication](#1-user-authentication)
+    * [2. Video Upload](#2-video-upload)
+    * [3. Video Processing](#3-video-processing)
+  * [Code Repos](#code-repos)
+  * [References](#references)
+<!-- TOC -->
+
 ## Introduction
 
 This document designs a simple YT clone which will be implemented in multiple phases.
